@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/X</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
+</head>
+
+<body class="bg-black relative">
+
+    <div class="flex mx-0 sm:mx-[9%] bg-black relative">
+
+        <div class="first md:w-[52%] bg-black text-white space-y-5 relative">
+            <div class="sticky top-0">
+                <div class="h-2 bg-black w-full"></div>
+                <div class="logo w-8 mt-0 my-4 ml-[5%] rounded-2xl">
+                    <svg class="invert" viewBox="0 0 24 24" aria-hidden="true"
+                        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="sidebar flex justify-start">
+                    <ul class="flex flex-col text-lg space-y-2 w-1/2 font-bold ml-2">
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">home</span><span
+                                class="hidden md:block">Home</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">search</span><span
+                                class="hidden md:block">Explore</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">notifications</span><span
+                                class="hidden md:block">Notifications</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">mail</span><span
+                                class="hidden md:block">Messages</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">Chat</span><span
+                                class="hidden md:block">Grok</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">List</span><span
+                                class="hidden md:block">Lists</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">Person</span><span
+                                class="hidden md:block">Profile</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-5 md:pr-7 md:px-3 py-1 md:w-fit hover:bg-[#1c1c1c] rounded-full hover:cursor-pointer">
+                            <span class="material-symbols-outlined text-2xl md:text-4xl">More</span><span
+                                class="hidden md:block">More</span>
+                        </li>
+                        <li>
+                            <button
+                                class="md:block hidden w-56d justify-center items-center h-14 rounded-full cursor-pointer bg-[#1d9bf0] hover:bg-[#1d9cf0df] w-52">Post</button>
+                            <button
+                                class="md:hidden w-6 flex text-xl justify-center items-center md:h-14 rounded-full cursor-pointer bg-[#1d9bf0] hover:bg-[#1d9cf0df] md:w-14">
+                                <span class="material-symbols-outlined text-sm">
+                                    edit
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile-detail w-5/6 my-7 hover:bg-[#1c1c1c] rounded-full p-3 cursor-pointer hidden md:block">
+                    <div class="flex items-center justify-between">
+                        <div class="profile-detail-img w-12 flex gap-2">
+                            <img class="rounded-full" src="img/dp.png" alt="">
+                            <div class="profile-detail-info flex flex-col">
+                                <span class="text-white">Prince Nagar</span>
+                                <span class="text-[#71767b]">@James1nagar</span>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second sm:mr-[25px] w-full bg-black border-[1px] border-x-[#16181c] border-y-black">
+            <div class="relative">
+                <div class="top bg-[#000000b4] backdrop-blur-sm text-white h-12 flex sticky top-0 ">
+                    <div class="absolute z-10 bg-blue-600 h-1 w-[11%] bottom-0 left-[17.5%]"></div>
+                    <div class="left w-1/2 font-semibold flex justify-center items-center hover:bg-[#1d1f24]">For you
+                    </div>
+                    <div class="right  w-1/2 font-semibold flex justify-center items-center hover:bg-[#1d1f24]">
+                        Following
+                    </div>
+                    <div class="setting m-3 flex justify-center items-center"><span
+                            class="material-symbols-outlined text-2xl w-full ">
+                            settings
+                        </span></div>
+                </div>
+                <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                <div class="whatishappen flex gap-2 pt-4 px-2">
+                    <div class="max-w-10 min-w-8 ml-2">
+                        <img class=" rounded-full" src="img/dp.png" alt="">
+                    </div>
+                    <div class="input-happen flex bg-transparent w-full flex-col items-start mr-4">
+                        <input class="text-2xl bg-transparent outline-none text-white w-full mx-2" type="text"
+                            placeholder="What is happening?!">
+                        <p
+                            class="text-[#1d9bf0] flex items-start gap-2 my-3 text-sm font-semibold mx-2 hover:cursor-pointer">
+                            <span class="material-symbols-outlined">
+                                public
+                            </span><span>Everyone can reply</span>
+                        </p>
+                        <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                        <div class="blueicons my-4 flex justify-between items-center w-full">
+                            <div class="blueicon-start text-[#1d9bf0] flex gap-2">
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    image
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    gif_box
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    ballot
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    sentiment_satisfied
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    calendar_clock
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    edit_location
+                                </span>
+                            </div>
+                            <div class="blueicon-end">
+                                <button class="text-white w-16 h-8 rounded-full bg-[#1d9bf0]">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                <div class="tweets">
+                    <div class="tweet flex m-5 gap-3">
+                        <div class="tweet-dp max-w-10 min-w-8 cursor-pointer">
+                            <img class="rounded-full" src="img/tweet-dp1.png" alt="">
+                        </div>
+                        <div class="tweet-main w-full flex flex-col gap-2">
+                            <div class="tweet-main-text">
+                                <div class="user-profile flex justify-between">
+                                    <div>
+                                        <span class="font-extrabold text-white hover:underline cursor-pointer">Culture
+                                            Crave</span>
+                                        <span class="font-medium text-[#71767b] cursor-pointer">@CultureCrave ·
+                                            12h</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-[#71767b] cursor-pointer">
+                                        more_horiz
+                                    </span>
+                                </div>
+                                <p class="text-[#e7e9ea]">Warner Bros Games plans to focus more on their core franchises
+                                    🎮
+                                </p>
+                            </div>
+                            <div class="tweet-main-img cursor-pointer">
+                                <img class="rounded-2xl border-[0.1px] border-[#1d1f24]" src="img/tweet-img.png" alt="">
+                            </div>
+                            <div class="tweet-main-icons text-[#71767b] flex justify-between">
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        chat_bubble
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">363</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        repeat
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">1.1k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        favorite
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">15k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">
+                                        967k
+                                    </span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bookmark
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                    <div class="tweet flex m-5 gap-3">
+                        <div class="tweet-dp max-w-10 min-w-8 cursor-pointer">
+                            <img class="rounded-full" src="img/tweet2dp.jpg" alt="">
+                        </div>
+                        <div class="tweet-main w-full flex flex-col gap-2">
+                            <div class="tweet-main-text">
+                                <div class="user-profile flex justify-between">
+                                    <div>
+                                        <span class="font-extrabold text-white hover:underline cursor-pointer">Karma Shopping</span>
+                                        <span class="font-medium text-[#71767b] cursor-pointer">@karma_shopping ·
+                                            2d</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-[#71767b] cursor-pointer">
+                                        more_horiz
+                                    </span>
+                                </div>
+                                <p class="text-[#e7e9ea]">Don't overpay on Amazon again! You're welcome.
+                                </p>
+                            </div>
+                            <div class="tweet-main-img cursor-pointer">
+                                <img class="rounded-2xl border-[0.1px] border-[#1d1f24]" src="img/tweet2img.png" alt="">
+                            </div>
+                            <div class="tweet-main-icons text-[#71767b] flex justify-between">
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        chat_bubble
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">2k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        repeat
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">2.4k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        favorite
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">8.2k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">
+                                        8.7M
+                                    </span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bookmark
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                    <div class="tweet flex m-5 gap-3">
+                        <div class="tweet-dp max-w-10 min-w-8 cursor-pointer">
+                            <img class="rounded-full" src="img/elon-img.jpg" alt="">
+                        </div>
+                        <div class="tweet-main w-full flex flex-col gap-2">
+                            <div class="tweet-main-text">
+                                <div class="user-profile flex justify-between">
+                                    <div>
+                                        <span class="font-extrabold text-white hover:underline cursor-pointer">Elon Musk</span>
+                                        <span class="font-medium text-[#71767b] cursor-pointer">@elonmusk ·
+                                            Mar 6</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-[#71767b] cursor-pointer">
+                                        more_horiz
+                                    </span>
+                                </div>
+                                <p class="text-[#e7e9ea]">Cybertruck on Hoth
+                                </p>
+                            </div>
+                            <div class="tweet-main-img cursor-pointer">
+                                <img class="rounded-2xl border-[0.1px] border-[#1d1f24]" src="img/tweet3img.jpg" alt="">
+                            </div>
+                            <div class="tweet-main-icons text-[#71767b] flex justify-between">
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        chat_bubble
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">8.4k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        repeat
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">16k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        favorite
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">286k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">
+                                        45M
+                                    </span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bookmark
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                    <div class="tweet flex m-5 gap-3">
+                        <div class="tweet-dp max-w-10 min-w-8 cursor-pointer">
+                            <img class="rounded-full" src="img/tweet4dp.jpg" alt="">
+                        </div>
+                        <div class="tweet-main w-full flex flex-col gap-2">
+                            <div class="tweet-main-text">
+                                <div class="user-profile flex justify-between">
+                                    <div>
+                                        <span class="font-extrabold text-white hover:underline cursor-pointer">Lenovo Legion</span>
+                                        <span class="font-medium text-[#71767b] cursor-pointer">@LenovoLegion ·
+                                            Jan 4</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-[#71767b] cursor-pointer">
+                                        more_horiz
+                                    </span>
+                                </div>
+                                <p class="text-[#e7e9ea]">Auroraa's discovery of Dota 2 intricacies sparked her desire to compete.
+                                </p>
+                            </div>
+                            <div class="tweet-main-img cursor-pointer">
+                                <img class="rounded-2xl border-[0.1px] border-[#1d1f24]" src="img/tweet4img.jpg" alt="">
+                            </div>
+                            <div class="tweet-main-icons text-[#71767b] flex justify-between">
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        chat_bubble
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">1.2k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        repeat
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">2.6kk</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        favorite
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">67k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">
+                                        2.9M
+                                    </span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bookmark
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                    <div class="tweet flex m-5 gap-3">
+                        <div class="tweet-dp max-w-10 min-w-8 cursor-pointer">
+                            <img class="rounded-full" src="img/tweet5dp.jpg" alt="">
+                        </div>
+                        <div class="tweet-main w-full flex flex-col gap-2">
+                            <div class="tweet-main-text">
+                                <div class="user-profile flex justify-between">
+                                    <div>
+                                        <span class="font-extrabold text-white hover:underline cursor-pointer">ƒ.</span>
+                                        <span class="font-medium text-[#71767b] cursor-pointer">@momentsofence ·
+                                            Sept 5</span>
+                                    </div>
+                                    <span class="material-symbols-outlined text-[#71767b] cursor-pointer">
+                                        more_horiz
+                                    </span>
+                                </div>
+                                <p class="text-[#e7e9ea]">the swiss roll croissants
+                                </p>
+                            </div>
+                            <div class="tweet-main-img cursor-pointer">
+                                <img class="rounded-2xl border-[0.1px] border-[#1d1f24]" src="img/tweet5img.png" alt="">
+                            </div>
+                            <div class="tweet-main-icons text-[#71767b] flex justify-between">
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        chat_bubble
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">3.8k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        repeat
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">9.3k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        favorite
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">115k</span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bar_chart_4_bars
+                                    </span>
+                                    <span class="text-[12px] sm:text-[16px]">
+                                        5.5M
+                                    </span>
+                                </div>
+                                <div class="flex items-center gap-2 cursor-pointer hover:text-[#1d9bf0]">
+                                    <span class="material-symbols-outlined sm:text-[24px] text-[12px]">
+                                        bookmark
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seperate w-full h-[0.1px] bg-[#1d1f24]"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="third w-[65%] bg-black relative hidden md:block">
+            <div class="search sticky top-0 bg-black z-10">
+                <input class="bg-[#16181c] mt-1 w-4/5 mx-7 py-3 px-3 rounded-full text-white outline-none" type="text"
+                    placeholder="Search">
+                <div class="h-2 bg-black w-full"></div>
+            </div>
+            <div class="sticky top-0">
+                <div class="whats bg-[#16181c] w-4/5 mx-7 rounded-xl">
+                    <div class="whats-heading m-3 py-3">
+                        <h1 class="font-extrabold text-xl text-[#e7e9ea]">What's happening</h1>
+                    </div>
+
+                    <div class="item py-4 hover:bg-[#1d1f24] hover:cursor-pointer">
+                        <div class="text-[#e7e9ea] font-bold text-base mx-3">Paris Fashion Week Fall 2024</div>
+                        <div class="text-[#71767b] text-sm mx-3">Fashion . live</div>
+                        <div class="text-[#71767b] text-sm mx-3">Trending with #ParisFashionWeek</div>
+                    </div>
+                    <div class="item py-4 hover:bg-[#1d1f24] hover:cursor-pointer">
+                        <div class="text-[#71767b] text-sm mx-3">Trending in India</div>
+                        <div class="text-[#e7e9ea] font-bold text-base mx-3">#MSDhoni</div>
+                        <div class="text-[#71767b] text-sm mx-3">4.84M posts</div>
+                    </div>
+                    <div class="item py-4 hover:bg-[#1d1f24] hover:cursor-pointer">
+                        <div class="text-[#71767b] text-sm mx-3">Entertainment · Trending</div>
+                        <div class="text-[#e7e9ea] font-bold text-base mx-3">#War2</div>
+                        <div class="text-[#71767b] text-sm mx-3">Trending with #YRFSpyUniverse</div>
+                    </div>
+                    <div class="text-[#1d9bf0] hover:cursor-pointer hover:underline py-3">
+                        <p class="mx-3">Show more</p>
+                    </div>
+                </div>
+                <div class="who-to-follow bg-[#16181c] w-4/5 mx-7 rounded-xl my-4 flex flex-col">
+                    <div class="follow-card-heading ml-4 mr-4 mt-4">
+                        <span class="text-white text-xl font-bold">Who to follow</span>
+                    </div>
+                    <div class="follow-card hover:bg-[#1d1f24] p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="follow-card-img w-10  flex gap-2">
+                                <img class="rounded-full" src="img/ubisoft-img.jpg" alt="">
+                                <div class="details flex flex-col text-sm">
+                                    <span class="text-white font-semibold hover:underline">Ubisoft</span>
+                                    <span class="text-[#71767b]">@Ubisoft</span>
+                                </div>
+                            </div>
+                            <div class="follow-btn text-black">
+                                <button class="h-9 px-4 rounded-full font-medium bg-white">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow-card hover:bg-[#1d1f24] p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="follow-card-img w-10  flex gap-2">
+                                <img class="rounded-full" src="img/elon-img.jpg" alt="">
+                                <div class="details flex flex-col text-sm">
+                                    <span class="text-white font-semibold hover:underline">Elon Musk</span>
+                                    <span class="text-[#71767b]">@elonmusk</span>
+                                </div>
+                            </div>
+                            <div class="follow-btn text-black">
+                                <button class="h-9 px-4 rounded-full font-medium bg-white">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow-card hover:bg-[#1d1f24] p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="follow-card-img w-10  flex gap-2">
+                                <img class="rounded-full" src="img/nasa-img.jpg" alt="">
+                                <div class="details flex flex-col text-sm">
+                                    <span class="text-white font-semibold hover:underline">NASA</span>
+                                    <span class="text-[#71767b]">@NASA</span>
+                                </div>
+                            </div>
+                            <div class="follow-btn text-black">
+                                <button class="h-9 px-4 rounded-full font-medium bg-white">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow-card hover:bg-[#1d1f24] p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="follow-card-img w-10  flex gap-2">
+                                <img class="rounded-full" src="img/ncb-img.jpg" alt="">
+                                <div class="details flex flex-col text-sm">
+                                    <span class="text-white font-semibold hover:underline">NCIB</span>
+                                    <span class="text-[#71767b]">@NCIBHQ</span>
+                                </div>
+                            </div>
+                            <div class="follow-btn text-black">
+                                <button class="h-9 px-4 rounded-full font-medium bg-white">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow-card hover:bg-[#1d1f24] p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="follow-card-img w-10  flex gap-2">
+                                <img class="rounded-full" src="img/icc-img.jpg" alt="">
+                                <div class="details flex flex-col text-sm">
+                                    <span class="text-white font-semibold hover:underline">ICC</span>
+                                    <span class="text-[#71767b]">@ICC</span>
+                                </div>
+                            </div>
+                            <div class="follow-btn text-black">
+                                <button class="h-9 px-4 rounded-full font-medium bg-white">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-[#1d9bf0] hover:cursor-pointer hover:underline py-3">
+                        <p class="mx-4">Show more</p>
+                    </div>
+                </div>
+                <div class="terms text-[#71767b] whats bg-black w-4/5 text-[13px] gap-2 flex flex-wrap items-start mx-7">
+                    <span class="mx-2">Terms of Service</span>
+                    <span class="mx-2">Privacy Policy</span>
+                    <span class="mx-2">Cookie Policy</span>
+                    <span class="mx-2">Asscessibility</span>
+                    <span class="mx-2">Ads info</span>
+                    <span class="mx-2">More</span>
+                    <span class="mx-2">&#169;2024 X Corp.</span>
+                </div>
+                <div class="bg-black h-52 w-4/5"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
